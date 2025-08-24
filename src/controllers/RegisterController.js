@@ -1,3 +1,4 @@
+// RegisterController.js
 import { supabase } from "../../SupabaseClient.js";
 import bcrypt from "bcryptjs";
 

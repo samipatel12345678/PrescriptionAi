@@ -1,3 +1,4 @@
+//LoginController.js
 import { supabase } from "../../SupabaseClient.js";
 import jwt from "jsonwebtoken";
 import bcrypt from "bcryptjs";

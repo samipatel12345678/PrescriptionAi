@@ -2,7 +2,8 @@ import multer from "multer";
 import path from "path";
 import { fileURLToPath } from "url";
 import { dirname } from "path";
-import { supabase } from "../config/supabase.js";
+// DocumentController.js
+import { supabase } from "../SupabaseClient.js";
 import pdfParse from "pdf-parse";
 import mammoth from "mammoth";
 import OpenAI from "openai";
