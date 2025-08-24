@@ -5,8 +5,8 @@
   "main": "sindex.js",
   "type": "module",
   "scripts": {
- "start": "node index.js",        // production start
-  "dev": "nodemon index.js",       // development with auto-reload
+ "start": "node index.js",       
+  "dev": "nodemon index.js",       
   "build": "echo 'No build step needed for pure Node.js'",
   "deploy": "node index.js", 
     "test": "jest",
