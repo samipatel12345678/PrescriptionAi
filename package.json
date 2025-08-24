@@ -5,10 +5,10 @@
   "main": "sindex.js",
   "type": "module",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js",
-     "build": "echo 'No build step needed for pure Node.js'",
-    "deploy": "node src/index.js",
+ "start": "node index.js",        // production start
+  "dev": "nodemon index.js",       // development with auto-reload
+  "build": "echo 'No build step needed for pure Node.js'",
+  "deploy": "node index.js", 
     "test": "jest",
     "lint": "eslint src/",
     "lint:fix": "eslint src/ --fix",
