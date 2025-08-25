@@ -43,3 +43,13 @@
 {"level":"info","message":"POST /api/documents/upload - ::1","service":"document-management-api","timestamp":"2025-08-23 23:25:55"}
 {"errors":[{"location":"body","msg":"Patient ID is required","path":"patientId","type":"field"}],"level":"warn","message":"Validation failed","method":"POST","service":"document-management-api","timestamp":"2025-08-23 23:25:55","url":"/upload"}
 {"level":"info","message":"SIGINT received, shutting down gracefully","service":"document-management-api","timestamp":"2025-08-23 23:26:06"}
+{"level":"info","message":"✅ Database connection successful","service":"document-management-api","timestamp":"2025-08-24 07:02:54"}
+{"level":"info","message":"🚀 Server running on port 5000 in development mode","service":"document-management-api","timestamp":"2025-08-24 07:02:54"}
+{"level":"info","message":"📊 Health check available at http://localhost:5000/health","service":"document-management-api","timestamp":"2025-08-24 07:02:54"}
+{"level":"info","message":"🔗 API base URL: http://localhost:5000/api","service":"document-management-api","timestamp":"2025-08-24 07:02:54"}
+{"level":"info","message":"SIGINT received, shutting down gracefully","service":"document-management-api","timestamp":"2025-08-24 07:03:04"}
+{"level":"info","message":"✅ Database connection successful","service":"document-management-api","timestamp":"2025-08-24 15:47:31"}
+{"level":"info","message":"🚀 Server running on port 5000 in development mode","service":"document-management-api","timestamp":"2025-08-24 15:47:31"}
+{"level":"info","message":"📊 Health check available at http://localhost:5000/health","service":"document-management-api","timestamp":"2025-08-24 15:47:31"}
+{"level":"info","message":"🔗 API base URL: http://localhost:5000/api","service":"document-management-api","timestamp":"2025-08-24 15:47:31"}
+{"level":"info","message":"SIGINT received, shutting down gracefully","service":"document-management-api","timestamp":"2025-08-25 15:01:11"}

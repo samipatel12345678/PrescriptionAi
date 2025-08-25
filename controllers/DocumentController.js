@@ -2,7 +2,7 @@ import multer from "multer";
 import path from "path";
 import { fileURLToPath } from "url";
 import { dirname } from "path";
-import { supabase } from "../SupabaseClient.js";
+import {supabase} from "../SupabaseClient.js";
 import pdfParse from "pdf-parse";
 import mammoth from "mammoth";
 import OpenAI from "openai";
@@ -48,7 +48,8 @@ const fileFilter = (req, file, cb) => {
 };
 
 const upload = multer({
-  storage: storage,
+  storage: 
+  storage,
   fileFilter: fileFilter,
   limits: {
     fileSize: 10 * 1024 * 1024, // 10MB limit
